@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+				<title>Page title</title>
+			<meta name"viewport" content"width=device-width,initial-scale=1">
+				<style>
+							*	{
+											box-sizing:border-box;
+							}
+							.colum{
+											float:left;
+											width:33.33%;
+											height:10000px;
+											padding:10px;
+											
+							}
+							.row:after{
+											content:" ";
+											display:table;
+											clear:both;
+							}
+				</style>
+</head>
+<body>
+				<div class="row">
+								<div class="colum"style="background-color:aqua;">
+												<h1>1</h1>
+												
+								</div>
+
+							<frameset cols=33.33%><frame>	<div class="colum"style="background-color:violet; box-shadow:5px 5px 5px 5px ;">
+												<h1>2</h1>
+												
+								</div></frame></frameset>
+								<div class="colum"style="background-color:aqua;">
+												<h1>3</h1>
+												
+								</div>
+				</div>
+				
+</body>
+</html>
